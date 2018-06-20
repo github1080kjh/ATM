@@ -1,0 +1,13 @@
+[kangjunhao]
+kangjunhao = 123456
+
+[alex]
+alex = 123
+
+[alvin]
+alvin = 456
+
+[mark]
+mark = 123
+
+2018-06-20 18:13:22,342 -- DEBUG -- kangjunhao spend 10 $, for apple
