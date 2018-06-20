@@ -24,7 +24,7 @@ ATM-and-shopping<br>
 2.提供还款接口<br>
 3.使用装饰器实现用户认证<br><br>
 
-注意：整个程序的接口是bin/bin.py ，可以直接运行程序，可以直接上手运行，程序中有提示各种操作的方法<br><br>
+注意：整个程序的接口是bin/bin.py ，程序中有提示各种操作的方法<br><br>
 
 文件详情：<br>
 ATM——logger：<br>
@@ -39,8 +39,8 @@ bin:<br>
 login_info:<br>
 >>init.py<br>
 >>login.py ： 实现登录功能，可多用户登录<br>
->>user_info ：存储用户的账号和密码<br>
->>add_user.py： 实现添加用户的功能<br>
+>>user_info ：(configparser 类型存储)存储用户的账号和密码<br>
+>>add_user.py： （用configparser实现）实现添加用户的功能<br>
 >>login_info.py ：<br><br>
 
 moudle:<br>
@@ -49,7 +49,7 @@ moudle:<br>
 
 setting:<br>
 >>init.py<br>
->>money ： 存放每个用户的可用余额<br>
+>>money ：(configparser 类型存储) 存放每个用户的可用余额<br>
 >>money_info.py ： 付钱的接口<br>
 >>transfer.py  : 转账的接口<br><br>
 
